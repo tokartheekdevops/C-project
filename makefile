@@ -1,5 +1,5 @@
 program: main.o big3.o factorial.o pallindrom.o
-	gcc main.o big3.o factorial.o pallindrom.o -o program
+	gcc main.o big3.o factorial.o pallindrom.o -o program.exe
 
 main.o: main.c
 	gcc -c main.c
