@@ -1,20 +1,16 @@
 #include <stdio.h>
+
 void biggest3()
 {
     int A, B, C;
- 
-    printf("Enter the numbers A, B and C: ");
+
+    printf("Enter three numbers: ");
     scanf("%d %d %d", &A, &B, &C);
- 
-    // finding max using compound expressions
-    if (A >= B && A >= C)
-        printf("%d is the largest number.", A);
- 
-    else if (B >= A && B >= C)
-        printf("%d is the largest number.", B);
- 
+
+    if (A > B && A > C)
+        printf("%d is biggest\n", A);
+    else if (B > C)
+        printf("%d is biggest\n", B);
     else
-        printf("%d is the largest number.", C);
- 
-   // return 0;
+        printf("%d is biggest\n", C);
 }
