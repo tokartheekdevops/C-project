@@ -11,6 +11,6 @@ void biggest3()
         printf("%d is biggest\n", A);
     else if (B > C)
         printf("%d is biggest\n", B);
-    else
+    elsee
         printf("%d is biggest\n", C);
 }
